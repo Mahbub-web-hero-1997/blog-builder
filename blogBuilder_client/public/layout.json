@@ -1,0 +1,51 @@
+[
+  {
+    "layoutConfig": {
+      "layoutType": "grid",
+      "columns": 4,
+      "gap": "2rem",
+      "justify": "center",
+      "items": "start",
+      "padding": "3rem",
+      "margin": "0",
+      "background": "#0f172a",
+      "showSidebar": false,
+      "responsive": {
+        "mobile": { "columns": 1 },
+        "tablet": { "columns": 2 },
+        "desktop": { "columns": 4 }
+      },
+      "sections": [
+        {
+          "type": "banner",
+          "image": "/banner.jpg",
+          "text": "Welcome to My Portfolio!"
+        },
+        {
+          "type": "card",
+          "title": "🌟 Project One",
+          "content": "An amazing full-stack app built with MERN and deployed on Vercel."
+        },
+        {
+          "type": "card",
+          "title": "🎯 Skills",
+          "content": "React, Node.js, Express, MongoDB, Tailwind CSS, TypeScript, Next.js, Firebase..."
+        },
+        {
+          "type": "card",
+          "title": "📬 Contact Me",
+          "content": "Feel free to reach out at example@mail.com or find me on GitHub!"
+        }
+      ]
+    },
+    "styleConfig": {
+      "theme": "dark",
+      "primaryColor": "#22c55e",
+      "fontSize": "18px",
+      "fontFamily": "Poppins, sans-serif",
+      "textColor": "#f8fafc",
+      "borderRadius": "16px",
+      "boxShadow": "0 8px 24px rgba(0,0,0,0.2)"
+    }
+  }
+]
