@@ -1,51 +1,65 @@
-[
-  {
-    "layoutConfig": {
-      "layoutType": "grid",
-      "columns": 4,
-      "gap": "2rem",
-      "justify": "center",
-      "items": "start",
-      "padding": "3rem",
-      "margin": "0",
+{
+  "pageTitle": "Demo Page",
+  "layoutConfig": {
+    "padding": "2rem",
+    "gap": "1.5rem",
+    "background": "#f8fafc"
+  },
+  "sections": [
+    {
+      "type": "navbar",
+      "layoutType": "flex",
+      "justify": "space-between",
+      "alignItems": "center",
+      "padding": "1rem 2rem",
       "background": "#0f172a",
-      "showSidebar": false,
-      "responsive": {
-        "mobile": { "columns": 1 },
-        "tablet": { "columns": 2 },
-        "desktop": { "columns": 4 }
+      "logo": {
+        "text": "MySite",
+        "color": "#ffffff",
+        "fontSize": "1.5rem"
       },
-      "sections": [
-        {
-          "type": "banner",
-          "image": "/banner.jpg",
-          "text": "Welcome to My Portfolio!"
-        },
-        {
-          "type": "card",
-          "title": "🌟 Project One",
-          "content": "An amazing full-stack app built with MERN and deployed on Vercel."
-        },
-        {
-          "type": "card",
-          "title": "🎯 Skills",
-          "content": "React, Node.js, Express, MongoDB, Tailwind CSS, TypeScript, Next.js, Firebase..."
-        },
-        {
-          "type": "card",
-          "title": "📬 Contact Me",
-          "content": "Feel free to reach out at example@mail.com or find me on GitHub!"
-        }
+      "links": [
+        { "label": "Home", "url": "/", "color": "#ffffff" },
+        { "label": "Products", "url": "/products", "color": "#ffffff" },
+        { "label": "Contact", "url": "/contact", "color": "#ffffff" }
       ]
     },
-    "styleConfig": {
-      "theme": "dark",
-      "primaryColor": "#22c55e",
-      "fontSize": "18px",
-      "fontFamily": "Poppins, sans-serif",
-      "textColor": "#f8fafc",
-      "borderRadius": "16px",
-      "boxShadow": "0 8px 24px rgba(0,0,0,0.2)"
+    {
+      "type": "productCardSection",
+      "layoutType": "grid",
+      "columns": 3,
+      "gap": "2rem",
+      "padding": "2rem",
+      "background": "#ffffff",
+      "products": [
+        {
+          "title": "Wireless Headphone",
+          "price": "$99",
+          "image": "https://www.startech.com.bd/image/cache/catalog/headphone/joyroom/jr-oh1/jr-oh1-01-500x500.webp",
+          "cta": {
+            "text": "Buy Now",
+            "url": "/products/1"
+          }
+        },
+        {
+          "title": "Smart Watch",
+          "price": "$129",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_sBZYXWuJORnrZY-YR3cFd_toX_dZ2UUaJA&s",
+          "cta": {
+            "text": "Buy Now",
+            "url": "/products/2"
+          }
+        },
+        {
+          "title": "Bluetooth Speaker",
+          "price": "$79",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtddyEz5ADKcFvpxoTXbGOJt85OybC1k9hqQ&s",
+          "cta": {
+            "text": "Buy Now",
+            "url": "/products/3"
+          }
+        }
+      ]
     }
-  }
-]
+  ]
+}
