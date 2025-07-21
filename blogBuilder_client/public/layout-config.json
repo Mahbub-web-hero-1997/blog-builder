@@ -1,0 +1,91 @@
+[
+  {
+    "layoutConfig": {
+      "layoutType": "grid",
+      "columnsClass": "grid-cols-1 md:grid-cols-3",
+      "gapClass": "gap-6",
+      "paddingClass": "p-8",
+      "background": "#f9fafb"
+    },
+
+    "navbar": {
+      "logoText": "My Blog",
+      "background": "#1e293b",
+      "textColor": "#ffffff",
+      "padding": "1rem",
+      "items": [
+        { "label": "Home", "link": "/" },
+        { "label": "About", "link": "/about" },
+        { "label": "Blog", "link": "/blog" },
+        { "label": "Contact", "link": "/contact" }
+      ]
+    },
+    "blogCards": {
+      "cardStyle": {
+        "background": "#ffffff",
+        "border": "1px solid #e2e8f0",
+        "borderRadius": "0.5rem",
+        "padding": "1rem",
+        "shadow": "0 2px 6px rgba(0,0,0,0.1)"
+      },
+      "titleStyle": {
+        "fontSize": "1.25rem",
+        "fontWeight": "bold",
+        "color": "#1e293b"
+      },
+      "descriptionStyle": {
+        "fontSize": "1rem",
+        "color": "#475569"
+      },
+      "cards": [
+        {
+          "title": "Learn React in 2025",
+          "description": "A complete guide to master React with best practices.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSoW3g9hjXIasgon-kpzz-lD9z4SsalyPbZA&s",
+          "link": "/blog/react-2025"
+        },
+        {
+          "title": "Node.js Performance Tips",
+          "description": "Improve your backend performance using simple techniques.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Jqy_joxyuPEsHWadt48KNQE0WcRK4j40RQ&s",
+          "link": "/blog/node-performance"
+        },
+        {
+          "title": "Tailwind CSS Layouts",
+          "description": "Create modern layouts using Tailwind CSS grid and flex utilities.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCTzqF8WN3P3IhRhQu19vkgKiMEXC7qcD93A&s",
+          "link": "/blog/tailwind-layouts"
+        }
+      ]
+    },
+    "footer": {
+      "background": "#1e293b",
+      "textColor": "#ffffff",
+      "padding": "2rem",
+      "columns": 3,
+      "items": [
+        {
+          "heading": "Company",
+          "links": [
+            { "label": "About", "link": "/about" },
+            { "label": "Careers", "link": "/careers" }
+          ]
+        },
+        {
+          "heading": "Resources",
+          "links": [
+            { "label": "Blog", "link": "/blog" },
+            { "label": "Help Center", "link": "/help" }
+          ]
+        },
+        {
+          "heading": "Follow Us",
+          "links": [
+            { "label": "Facebook", "link": "https://facebook.com" },
+            { "label": "Twitter", "link": "https://twitter.com" }
+          ]
+        }
+      ]
+    }
+  }
+]
